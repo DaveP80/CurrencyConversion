@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner input = new Scanner(System.in);
+
     public static void main(String[] args) throws InterruptedException {
 
         FConversionService conversion = new FConversionService(); //dependency injection
@@ -28,7 +29,6 @@ public class Main {
                     Coins c = new Coins(scan);
 
                     conversionService1.convert(c);
-                    conversionService1.convertString(c);
 
                     break;
                 } //need brackets to contain Coin object
