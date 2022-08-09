@@ -1,8 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static sun.misc.PostVMInitHook.run;
-
 public class Main {
     static Scanner input = new Scanner(System.in);
 
