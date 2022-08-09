@@ -10,7 +10,6 @@ public class Main {
 
         while (true) {
 
-
             FConversionService conversion = new FConversionService(); //dependency injection
             SimpleConversionService simple = new SimpleConversionService(); //dependency injection
             ConversionService conversionService = new ConversionService(conversion);
