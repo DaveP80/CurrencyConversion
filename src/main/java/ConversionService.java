@@ -5,7 +5,6 @@ public class ConversionService{
     public ConversionService(Exchange exchange) {
         this.exchange = exchange;
 
-
     }
 
     public void convert (Coins c) {
