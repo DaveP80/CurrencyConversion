@@ -10,8 +10,11 @@ public class ConversionService{
 
     public void convert (Coins c) {
 
-
         System.out.println(this.exchange.mint(c));
+    }
+
+    public void convertString (Coins c) {
+        System.out.println("Text " + this.exchange.text(c));
     }
 
 }
