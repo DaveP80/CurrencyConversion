@@ -61,13 +61,11 @@ public class Main {
                             break;
                         default:
                             System.out.println(choice + " is not a valid Menu Option! Please Select Another.");
-
                     }
 
                 } while (choice != 3);
             } catch (InputMismatchException e) {
                 System.out.println("enter integers");
-
             }
         }
     }
